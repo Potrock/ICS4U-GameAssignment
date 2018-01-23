@@ -2,7 +2,7 @@ package battleship;
 
 public class Cruiser extends Ship {
 
-	public Cruiser (int posX1, int posY1, int posX2, int posY2) {
+	public Cruiser(int posX1, int posY1, int posX2, int posY2) {
 		this.name = "Cruiser";
 		this.size = 2;
 		this.lives = 2;
@@ -15,7 +15,7 @@ public class Cruiser extends Ship {
 	@Override
 	public void hit() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

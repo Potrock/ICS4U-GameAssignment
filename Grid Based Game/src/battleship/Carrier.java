@@ -1,8 +1,8 @@
 package battleship;
 
-public class Carrier extends Ship{
+public class Carrier extends Ship {
 
-	public Carrier (int posX1, int posY1, int posX2, int posY2) {
+	public Carrier(int posX1, int posY1, int posX2, int posY2) {
 		this.name = "Carrierr";
 		this.size = 5;
 		this.lives = 5;
@@ -15,7 +15,7 @@ public class Carrier extends Ship{
 	@Override
 	public void hit() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

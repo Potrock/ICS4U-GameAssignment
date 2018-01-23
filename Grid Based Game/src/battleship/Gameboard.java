@@ -9,7 +9,7 @@ public class Gameboard implements I_Grid {
 
 	public Gameboard() {
 		System.out.println("Please place your ships");
-		Scanner sc= new Scanner (System.in);
+		Scanner sc = new Scanner(System.in);
 		userX1 = userY1 = userX2 = userY2 = sc.nextInt();
 		placeShips(userX1, userY1, userX2, userY2);
 		for (int i = 0; i < board.length; i++) {
@@ -18,6 +18,14 @@ public class Gameboard implements I_Grid {
 				System.out.print(board[i][j]);
 			}
 			System.out.println();
+		}
+	}
+
+	public void updateBoard() {
+		for (int i = 0; i < board.length; i++) {
+			for (int j = 0; j < board.length; j++) {
+				System.out.print(board[i][j]);
+			}
 		}
 	}
 

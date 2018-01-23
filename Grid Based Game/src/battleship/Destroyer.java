@@ -15,7 +15,7 @@ public class Destroyer extends Ship {
 	@Override
 	public void hit() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
