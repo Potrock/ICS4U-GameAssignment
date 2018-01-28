@@ -23,6 +23,13 @@ public class Play extends Gameboard implements I_Grid {
 				board[j][i] = "O";
 			}
 		}
+		for (int a = 0; a < board.length; a++) {
+			for (int b = 0; b < board[a].length; b++) {
+				System.out.print(board[a][b] + " ");
+			}
+			System.out.println();
+		}
+		new Play();
 		updateBoard();
 	}
 

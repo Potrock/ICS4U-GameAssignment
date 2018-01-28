@@ -15,7 +15,6 @@ public class Submarine extends Ship {
 
 	@Override
 	public boolean hit(int shootX, int shootY) {
-		System.out.println("hi");
 		if (this.shipCheck[shootY][shootX])
 			this.alive = false;
 		return this.alive;
