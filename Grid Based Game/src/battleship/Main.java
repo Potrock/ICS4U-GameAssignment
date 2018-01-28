@@ -1,12 +1,10 @@
 package battleship;
 
-public class Main {
-	int turn = 0;
+public class Main implements I_Grid{
 
 	public static void main(String[] args) {
-		Gameboard gb = new Gameboard();
-		
-
+		new Gameboard();
+		new Play(board);
 	}
 
 }

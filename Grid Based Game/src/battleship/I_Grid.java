@@ -1,8 +1,8 @@
 package battleship;
 
 public interface I_Grid {
-	static final int BOARD_SIZEX = 30;
-	static final int BOARD_SIZEY = 10;
-	public char[][] board = new char[BOARD_SIZEY][BOARD_SIZEX];
+	static final int BOARD_SIZE_X = 10;
+	static final int BOARD_SIZE_Y = 10;
+	public char[][] board = new char[BOARD_SIZE_X][BOARD_SIZE_Y];
 
 }

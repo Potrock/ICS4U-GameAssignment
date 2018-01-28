@@ -2,20 +2,20 @@ package battleship;
 
 public class Submarine extends Ship {
 
-	public Submarine(int posX1, int posY1, int posX2, int posY2) {
-		this.name = "Submarine";
+	public Submarine() {
+		int userX = 10*(int) Math.random();
+		int userY = 10*(int) Math.random();
+		this.posX = userX;
+		this.posY = userY;
+		this.shipCheck[this.posY][this.posX] = true;
+		this.name = this.id + "Submarine";
 		this.size = 1;
-		this.lives = 1;
-		this.posX1 = posX1;
-		this.posY1 = posY1;
-		this.posX2 = posX2;
-		this.posY2 = posY2;
 	}
 
 	@Override
-	public void hit() {
-		// TODO Auto-generated method stub
-
+	public void hit(int shootX, int shootY) { // removed char[][] board
+		if (this.shipCheck[this.posY][this.posX])
+			this.id = 0;
 	}
 
 }
