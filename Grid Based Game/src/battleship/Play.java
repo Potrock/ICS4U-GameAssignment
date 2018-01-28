@@ -5,27 +5,25 @@ import java.util.Scanner;
 public class Play extends Gameboard implements I_Grid {
 	public int shootX;
 	public int shootY;
-	// Ship[] ships = {new Carrier(), new Battleship(), new Cruiser(), new Submarine(), new Destroyer() };
-	Ship ships = new Submarine();
-	
-	public Play(char board[][]) {
+
+	public Play() {
 		Scanner sc = new Scanner(System.in);
-		shootX = sc.nextInt() - 1;
-		shootY = sc.nextInt() - 1;
-		shoot(shootX, shootY, board);
+		do {
+			shootX = sc.nextInt() - 1;
+			shootY = sc.nextInt() - 1;
+		} while (shootX < 0 || shootX > 9 || shootY < 0 || shootY > 9);
+		shoot(shootX, shootY);
 	}
 
-	public void shoot(int i, int j, char board[][]) {
-//		for (int k = 0; k < ships.length; k++) {
-//			ships[k].hit(shootX, shootY, board);
-//		}
-//		for (int k = 0; k < ships.length; k++) {
-//			if (ships[k].shipCheck[j][i]) {
-//				board[j][i] = 'O';
-//			}
-//		}
-		
-		updateBoard(board);
+	public void shoot(int i, int j) {
+		for (int k = 0; k < 5; k++) {
+			if (!ship[k].hit(shootY, shootX)) {
+				board[j][i] = "X";
+			} else {
+				board[j][i] = "O";
+			}
+		}
+		updateBoard();
 	}
 
 }

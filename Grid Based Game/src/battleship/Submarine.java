@@ -3,19 +3,22 @@ package battleship;
 public class Submarine extends Ship {
 
 	public Submarine() {
-		int userX = 10*(int) Math.random();
-		int userY = 10*(int) Math.random();
+		int userX = (int)(10*Math.random());
+		int userY = (int)(10*Math.random());
 		this.posX = userX;
 		this.posY = userY;
 		this.shipCheck[this.posY][this.posX] = true;
-		this.name = this.id + "Submarine";
+		this.id++;
+		this.getShip(this.id, "Submarine");
 		this.size = 1;
 	}
 
 	@Override
-	public void hit(int shootX, int shootY) { // removed char[][] board
-		if (this.shipCheck[this.posY][this.posX])
-			this.id = 0;
+	public boolean hit(int shootX, int shootY) {
+		System.out.println("hi");
+		if (this.shipCheck[shootY][shootX])
+			this.alive = false;
+		return this.alive;
 	}
 
 }
