@@ -1,21 +1,37 @@
 package ttt;
 
-import javafx.stage.Stage;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
 
 /**
- * Created by pwbla on 2018-01-15.
+ * Created by pwbla on 2018-01-29.
  */
-public class TicTacToe implements I_Grid {
-    public Stage TTTStage;
+public class TicTacToe extends A_TicTacToe {
 
-    public void setWidth(int i) {
-        i = 0;
+    int index = 0;
+
+    TicTacToe() throws Exception {
+        tttScene = new Scene(tttRoot, 600, 600);
+        initialize();
     }
 
-    public void setLength(int i) {
-        i = 0;
+
+    @Override
+    public void initialize() {
+        for (int i = 0; i < 3; i++) {
+            tttRoot.add(buttons.get(index), 0, i);
+            index++;
+        }
+        for (int i = 0; i < 3; i++) {
+            tttRoot.add(buttons.get(index), 1, i);
+            index++;
+        }
+        for (int i = 0; i < 3; i++) {
+            tttRoot.add(buttons.get(index), 2, i);
+            index++;
+        }
     }
-
-
-
+    public Scene getScene() {
+        return tttScene;
+    }
 }
