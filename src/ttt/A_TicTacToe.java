@@ -17,13 +17,13 @@ import java.util.List;
 public abstract class A_TicTacToe implements I_Grid {
     Scene tttScene;
     GridPane tttRoot = new GridPane();
-    List<Button> buttons = new ArrayList<Button>();
+    List<ttt.Button> buttons = new ArrayList<ttt.Button>();
     A_TicTacToe() throws Exception {
         //Add 9 buttons to button array
         for (int i = 0; i < 9; i++) {
-            buttons.add(i, new Button(""));
-            buttons.get(i).setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
-            buttons.get(i).setMinSize(200, 200);
+            buttons.add(i, new ttt.Button(i));
+            buttons.get(i).returnButton().setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
+            buttons.get(i).returnButton().setMinSize(200, 200);
         }
     }
 

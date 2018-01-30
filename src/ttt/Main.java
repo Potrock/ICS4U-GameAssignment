@@ -16,10 +16,8 @@ public class Main extends Application {
 
         ttt = new TicTacToe();
         primaryStage.setScene(ttt.getScene());
-
-
-
     }
+
 
 
     public static void main(String[] args) {
