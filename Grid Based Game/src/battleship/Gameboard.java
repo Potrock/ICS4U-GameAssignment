@@ -1,7 +1,7 @@
 package battleship;
 
 public class Gameboard implements I_Grid {
-	Ship[] ship = {new Submarine(), new Submarine(), new Submarine(), new Submarine(), new Submarine() };
+	public String[][] board = new String[BOARD_SIZE_Y][BOARD_SIZE_X];
 
 	public Gameboard() {
 		for (int i = 0; i < board.length; i++) {
@@ -9,10 +9,6 @@ public class Gameboard implements I_Grid {
 				board[i][j] = "~";
 			}
 		}
-	}
-
-	public void updateBoard() {
-		new Play();
 	}
 
 }
