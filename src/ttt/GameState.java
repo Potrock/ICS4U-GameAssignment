@@ -19,7 +19,6 @@ class GameState {
                 btn.returnButton().setText("X");
                 players.setTurn(2);
                 grid[location] = 'X'; //taken by player1
-                checkWin1();
             }
         } else if (players.getTurn() == 2) { //Player 2 move
             if (btn.returnButton().getText().equals("")) {
@@ -27,7 +26,6 @@ class GameState {
                 btn.returnButton().setText("O");
                 players.setTurn(1);
                 grid[location] = 'O'; //taken by player2
-                checkWin2();
             }
         }
     }
@@ -52,6 +50,16 @@ class GameState {
                 grid[2] == 'O' && grid[5] == 'O' && grid[8] == 'O' ||
                 grid[2] == 'O' && grid[4] == 'O' && grid[2] == 'O' ||
                 grid[0] == 'O' && grid[4] == 'O' && grid[8] == 'O';
+    }
+
+    public boolean checkTie() {
+        int count = 0;
+        for (int i = 0; i < 9; i++) {
+            if (grid[i] != '\u0000') {
+                count++;
+            }
+        }
+        return count >= 9;
     }
 
     public void resetGame() {

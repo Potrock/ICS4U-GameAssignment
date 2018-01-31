@@ -29,7 +29,8 @@ public class Main extends Application {
         System.out.println("Kill the ship to win!");
         System.out.println("Please input coordinates for a shot using integers");
         new Gameboard();
-        new Play();
+        Play instance = new Play();
+        primaryStage.setScene(instance.getInputScene());
     }
 
     static Scene getTTTScene() {

@@ -61,6 +61,9 @@ public class TicTacToe extends A_TicTacToe {
             tttRoot.add(new Text("WINNER 1"), 3, 0);
             Main.getStage().setScene(tttEndXs);
         }
+        if (game.checkTie()) {
+            //done
+        }
     }
 
     void resetGame() {
