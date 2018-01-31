@@ -83,6 +83,14 @@ public class TicTacToe extends A_TicTacToe {
             Main.getStage().setScene(tttEndXs);
         }
     }
+
+    public void resetGame() {
+        game.resetGame();
+        index = 0;
+        for (Button btn : buttons) {
+            btn.returnButton().setText("");
+        }
+    }
     public Scene getScene() {
         return tttScene;
     }

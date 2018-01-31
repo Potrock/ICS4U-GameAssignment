@@ -22,11 +22,11 @@ public class Controller {
 
     @FXML
     void a_tttBtn(ActionEvent event) throws IOException {
-
+        Main.getStage().setScene(Main.getTTTScene());
     }
 
     @FXML
     void a_battleshipBtn(ActionEvent event) throws IOException {
-
+        Main.playBattleship();
     }
 }
