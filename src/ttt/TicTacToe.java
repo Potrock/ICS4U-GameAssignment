@@ -10,16 +10,20 @@ import javafx.scene.text.Text;
  */
 public class TicTacToe extends A_TicTacToe {
 
+    AnchorPane tttEndT;
     private GameState game;
     private Players players = new Players();
-    private Scene tttEndOs, tttEndXs;
+    private Scene tttEndOs, tttEndXs, tttEndTs;
 
     TicTacToe() throws Exception {
         tttScene = new Scene(tttRoot, 600, 600);
         AnchorPane tttEndO = FXMLLoader.load(getClass().getResource("owins.fxml"));
         AnchorPane tttEndX = FXMLLoader.load(getClass().getResource("xwins.fxml"));
+        AnchorPane tttEndT = FXMLLoader.load(getClass().getResource("tiedmenu.fxml"));
+        tttEndTs = new Scene(tttEndT);
         tttEndOs = new Scene(tttEndO);
         tttEndXs = new Scene(tttEndX);
+
 
         initialize();
         game = new GameState();
@@ -56,13 +60,11 @@ public class TicTacToe extends A_TicTacToe {
             tttRoot.add(new Text("WINNER 2"), 3, 0);
             System.out.println("WINNER O");
             Main.getStage().setScene(tttEndOs);
-        }
-        if (game.checkWin1()) {
+        } else if (game.checkWin1()) {
             tttRoot.add(new Text("WINNER 1"), 3, 0);
             Main.getStage().setScene(tttEndXs);
-        }
-        if (game.checkTie()) {
-            //done
+        } else if (game.checkTie()) {
+            Main.getStage().setScene(tttEndTs);
         }
     }
 
