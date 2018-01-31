@@ -9,7 +9,14 @@ import java.util.List;
 /**
  * Created by pwbla on 2018-01-15.
  */
+/*
+Abstract class implementing I_CommonGame
+ */
 public abstract class A_TicTacToe implements I_CommonGame {
+    /*
+    Creates main scene and gridpane references
+    Creates ArrayList of my button class
+     */
     Scene tttScene;
     GridPane tttRoot = new GridPane();
     List<ttt.Button> buttons = new ArrayList<ttt.Button>();

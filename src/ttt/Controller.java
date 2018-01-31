@@ -5,6 +5,9 @@ import javafx.fxml.FXML;
 
 import java.io.IOException;
 
+/*
+Controller for handing button presses in FXML scenes
+ */
 public class Controller {
     @FXML
     private javafx.scene.control.Button mainmenubtn;

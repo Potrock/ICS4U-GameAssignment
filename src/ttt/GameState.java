@@ -8,10 +8,12 @@ class GameState {
     private Players players;
 
     GameState() {
+        //Creates an instance of Players, and creates the grid of characters
         players = new Players();
         grid = new char[9];
     }
 
+    //Checks the legality of the move based on whos turn it is, what button theyre pressing, and where that button is on the grid
     void checkMove(int turn, ttt.Button btn, int location) {
         if (players.getTurn() == 1) { // Player 1 move
             if (btn.returnButton().getText().equals("")) {
@@ -30,6 +32,9 @@ class GameState {
         }
     }
 
+    /*
+    Win cases for X
+     */
     boolean checkWin1() {
         return grid[0] == 'X' && grid[1] == 'X' && grid[2] == 'X' ||
                 grid[3] == 'X' && grid[4] == 'X' && grid[5] == 'X' ||
@@ -41,7 +46,10 @@ class GameState {
                 grid[2] == 'X' && grid[4] == 'X' && grid[6] == 'X';
     }
 
-    public boolean checkWin2() {
+    /*
+    Win cases for O
+     */
+    boolean checkWin2() {
         return grid[0] == 'O' && grid[1] == 'O' && grid[2] == 'O' ||
                 grid[3] == 'O' && grid[4] == 'O' && grid[5] == 'O' ||
                 grid[6] == 'O' && grid[7] == 'O' && grid[8] == 'O' ||
@@ -52,7 +60,11 @@ class GameState {
                 grid[2] == 'O' && grid[4] == 'O' && grid[6] == 'O';
     }
 
-    public boolean checkTie() {
+    /*
+    If there are 9 buttons that no longer have empty text (All full), then it's a tie.
+    This only gets called AFTER the program has determined that there is no winner.
+     */
+    boolean checkTie() {
         int count = 0;
         for (int i = 0; i < 9; i++) {
             if (grid[i] != '\u0000') {
@@ -62,7 +74,11 @@ class GameState {
         return count >= 9;
     }
 
-    public void resetGame() {
+    /*
+    Resets all grid data
+    Sets it to X's turn
+     */
+    void resetGame() {
         for (int i = 0; i < 9; i++) {
             grid[i] = 0;
             players.setTurn(1);
