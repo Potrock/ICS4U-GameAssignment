@@ -39,10 +39,10 @@ public class Play extends Gameboard implements I_CommonGame {
         String[] choice = input.split(" ");
         shootX = Integer.parseInt(choice[0]) - 1;
         shootY = Integer.parseInt(choice[1]) - 1;
-        if (shootX >= 0 && shootX < 4 && shootY >= 0 && shootY < 4) {
+        if (shootX >= 0 && shootX <= 4 && shootY >= 0 && shootY <= 4) {
             shoot(shootX, shootY);
         } else {
-            System.out.println("Sorry! That coordinate doesn't exist! Try inputting one between 0 and 4");
+            System.out.println("Sorry! That coordinate doesn't exist! Try inputting one between 0 and 5");
         }
         inputField.setText("");
     }
