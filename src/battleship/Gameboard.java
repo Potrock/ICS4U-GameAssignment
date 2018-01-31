@@ -3,7 +3,7 @@ package battleship;
 import ttt.I_CommonGame;
 
 public class Gameboard implements I_CommonGame {
-    public String[][] board = new String[BOARD_SIZE_Y][BOARD_SIZE_X];
+    String[][] board = new String[BOARD_SIZE_Y][BOARD_SIZE_X];
 
     public Gameboard() {
         for (int i = 0; i < board.length; i++) {

@@ -10,16 +10,14 @@ import javafx.scene.text.Text;
  */
 public class TicTacToe extends A_TicTacToe {
 
-    int index = 0;
-    GameState game;
-    Players players = new Players();
-    AnchorPane tttEndO, tttEndX;
-    Scene tttEndOs, tttEndXs;
+    private GameState game;
+    private Players players = new Players();
+    private Scene tttEndOs, tttEndXs;
 
     TicTacToe() throws Exception {
         tttScene = new Scene(tttRoot, 600, 600);
-        tttEndO = FXMLLoader.load(getClass().getResource("owins.fxml"));
-        tttEndX = FXMLLoader.load(getClass().getResource("xwins.fxml"));
+        AnchorPane tttEndO = FXMLLoader.load(getClass().getResource("owins.fxml"));
+        AnchorPane tttEndX = FXMLLoader.load(getClass().getResource("xwins.fxml"));
         tttEndOs = new Scene(tttEndO);
         tttEndXs = new Scene(tttEndX);
 
@@ -52,7 +50,7 @@ public class TicTacToe extends A_TicTacToe {
         buttons.get(8).returnButton().setOnAction(event -> gameCheck(8));
     }
 
-    public void gameCheck(int num) {
+    private void gameCheck(int num) {
         game.checkMove(players.getTurn(), buttons.get(num), num);
         if (game.checkWin2()) {
             tttRoot.add(new Text("WINNER 2"), 3, 0);
@@ -65,14 +63,15 @@ public class TicTacToe extends A_TicTacToe {
         }
     }
 
-    public void resetGame() {
+    void resetGame() {
         game.resetGame();
-        index = 0;
+        int index = 0;
         for (Button btn : buttons) {
             btn.returnButton().setText("");
         }
     }
-    public Scene getScene() {
+
+    Scene getScene() {
         return tttScene;
     }
 

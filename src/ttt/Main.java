@@ -13,11 +13,11 @@ public class Main extends Application {
     private static Stage primaryStage;
     private static Scene mainScene;
 
-    public static Stage getStage() {
+    static Stage getStage() {
         return primaryStage;
     }
 
-    public static Scene getMainScene() {
+    static Scene getMainScene() {
         return mainScene;
     }
 
@@ -25,14 +25,14 @@ public class Main extends Application {
         launch(args);
     }
 
-    public static void playBattleship() {
+    static void playBattleship() {
         System.out.println("Kill the ship to win!");
         System.out.println("Please input coordinates for a shot using integers");
         new Gameboard();
         new Play();
     }
 
-    public static Scene getTTTScene() {
+    static Scene getTTTScene() {
         ((TicTacToe) ttt).resetGame();
         return ((TicTacToe) ttt).getScene();
     }

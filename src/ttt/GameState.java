@@ -3,15 +3,16 @@ package ttt;
 /**
  * Created by pwbla on 2018-01-30.
  */
-public class GameState {
-    char[] grid;
-    Players players;
-    public GameState() {
+class GameState {
+    private char[] grid;
+    private Players players;
+
+    GameState() {
         players = new Players();
         grid = new char[9];
     }
 
-    public void checkMove(int turn, ttt.Button btn, int location) {
+    void checkMove(int turn, ttt.Button btn, int location) {
         if (players.getTurn() == 1) { // Player 1 move
             if (btn.returnButton().getText().equals("")) {
                 //Allow the move
@@ -31,7 +32,7 @@ public class GameState {
         }
     }
 
-    public boolean checkWin1() {
+    boolean checkWin1() {
         return grid[0] == 'X' && grid[1] == 'X' && grid[2] == 'X' ||
                 grid[3] == 'X' && grid[4] == 'X' && grid[5] == 'X' ||
                 grid[6] == 'X' && grid[7] == 'X' && grid[8] == 'X' ||

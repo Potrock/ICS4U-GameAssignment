@@ -5,8 +5,8 @@ import ttt.I_CommonGame;
 import java.util.Scanner;
 
 public class Play extends Gameboard implements I_CommonGame {
-    public int shootX;
-    public int shootY;
+    private int shootX;
+    private int shootY;
 
     public Play() {
         Scanner sc = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class Play extends Gameboard implements I_CommonGame {
         shoot(shootX, shootY);
     }
 
-    public void shoot(int i, int j) {
+    private void shoot(int i, int j) {
         if (!ship.hit(j, i)) {
             board[j][i] = "X";
         } else {
