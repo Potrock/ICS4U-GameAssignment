@@ -19,8 +19,10 @@ public class Play extends Gameboard implements I_CommonGame {
         greeting.setFont(Font.font("Arial", 20));
         greeting.setTranslateY(100);
         greeting.setTranslateX(50);
+        // makes a textfield to get the input from the user
         inputField = new TextField("");
         inputField.setOnAction(event -> handleInput(inputField.getText()));
+        // sets dimensions for the text field
         inputField.setPrefWidth(500);
         inputField.setPrefHeight(100);
         inputField.setTranslateX(50);
@@ -40,29 +42,34 @@ public class Play extends Gameboard implements I_CommonGame {
         if (choice.length > 2) {
             System.out.println("Input too long, keep it to 2 numbers please.");
         } else {
+            // gets integers from the strings and subtracts 1 to get the position of the array
             shootX = Integer.parseInt(choice[0]) - 1;
             shootY = Integer.parseInt(choice[1]) - 1;
+            // checks if the shot is within the parameters of the gameboard
             if (shootX >= 0 && shootX <= 4 && shootY >= 0 && shootY <= 4) {
                 shoot(shootX, shootY);
             } else {
-                System.out.println("Sorry! That coordinate doesn't exist! Try inputting one between 0 and 5");
+                System.out.println("Sorry! That coordinate doesn't exist! Try inputting one between 1 and 5");
             }
             inputField.setText("");
         }
     }
 
     private void shoot(int i, int j) {
+        // if the ship is hit, update the character in the location of the shot to an X, if not it is an O
         if (!ship.hit(j, i)) {
             board[j][i] = "X";
         } else {
             board[j][i] = "O";
         }
+        // reprints the board after the shot goes off
         for (int a = 0; a < board.length; a++) {
             for (int b = 0; b < board[a].length; b++) {
                 System.out.print(board[a][b] + " ");
             }
             System.out.println();
         }
+        // checks if the ship is still alive or not
         ((Submarine) ship).hit();
     }
 
