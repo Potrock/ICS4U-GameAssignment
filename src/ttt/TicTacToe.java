@@ -50,25 +50,6 @@ public class TicTacToe extends A_TicTacToe {
         buttons.get(7).returnButton().setOnAction(event -> gameCheck(7));
         tttRoot.add(buttons.get(8).returnButton(), 2, 2);
         buttons.get(8).returnButton().setOnAction(event -> gameCheck(8));
-
-
-//        for (int i = 0; i < 3; i++) {
-//            tttRoot.add(buttons.get(index).returnButton(), 0, i);
-//            buttons.get(index).setOnAction(event -> game.checkMove(players.getTurn(), buttons.get(index), index));
-//            index++;
-//            System.out.println(index);
-//        }
-//        for (int i = 0; i < 3; i++) {
-//            tttRoot.add(buttons.get(index).returnButton(), 1, i);
-//            buttons.get(index).setOnAction(event -> game.checkMove(players.getTurn(), buttons.get(index), index));
-//            index++;
-//        }
-//        for (int i = 0; i < 3; i++) {
-//            tttRoot.add(buttons.get(index).returnButton(), 2, i);
-//            buttons.get(index).setOnAction(event -> game.checkMove(players.getTurn(), buttons.get(index), index));
-//            index++;
-//        }
-//        index--;
     }
 
     public void gameCheck(int num) {

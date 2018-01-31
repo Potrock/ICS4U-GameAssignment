@@ -1,11 +1,6 @@
 package ttt;
 
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 
 import java.util.ArrayList;
@@ -14,7 +9,7 @@ import java.util.List;
 /**
  * Created by pwbla on 2018-01-15.
  */
-public abstract class A_TicTacToe implements I_Grid {
+public abstract class A_TicTacToe implements I_CommonGame {
     Scene tttScene;
     GridPane tttRoot = new GridPane();
     List<ttt.Button> buttons = new ArrayList<ttt.Button>();
@@ -25,20 +20,6 @@ public abstract class A_TicTacToe implements I_Grid {
             buttons.get(i).returnButton().setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
             buttons.get(i).returnButton().setMinSize(200, 200);
         }
-    }
-
-    @Override
-    public void setWidth(int newWidth) {
-    }
-
-    @Override
-    public void setLength(int newLength) {
-
-    }
-
-    @Override
-    public void addObject(Node object, AnchorPane root) {
-        root.getChildren().add(object);
     }
 
 }

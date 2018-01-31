@@ -1,6 +1,8 @@
 package battleship;
 
-public class Gameboard implements I_Grid {
+import ttt.I_CommonGame;
+
+public class Gameboard implements I_CommonGame {
     public String[][] board = new String[BOARD_SIZE_Y][BOARD_SIZE_X];
 
     public Gameboard() {
@@ -9,6 +11,10 @@ public class Gameboard implements I_Grid {
                 board[i][j] = "~";
             }
         }
+    }
+
+    public void initialize() {
+        System.out.print("Welcome to Battleship!");
     }
 
 }

@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleship/Gameboard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleship/I_Grid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleship/Play.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleship/Ship.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/battleship/Submarine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/Controller.class" afterPath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/Controller.class" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Merged I_Grid files">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/I_Grid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/battleship/I_Grid.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ttt/I_Grid.java" afterPath="$PROJECT_DIR$/src/ttt/I_CommonGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/A_TicTacToe.class" afterPath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/A_TicTacToe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/GameState.class" afterPath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/GameState.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/Main.class" afterPath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/TicTacToe.class" afterPath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/TicTacToe.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/Controller.java" afterPath="$PROJECT_DIR$/src/ttt/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/GameState.java" afterPath="$PROJECT_DIR$/src/ttt/GameState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/Main.java" afterPath="$PROJECT_DIR$/src/ttt/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/battleship/Gameboard.java" afterPath="$PROJECT_DIR$/src/battleship/Gameboard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/battleship/Play.java" afterPath="$PROJECT_DIR$/src/battleship/Play.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/A_TicTacToe.java" afterPath="$PROJECT_DIR$/src/ttt/A_TicTacToe.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/TicTacToe.java" afterPath="$PROJECT_DIR$/src/ttt/TicTacToe.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -73,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ttt/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="335">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
@@ -94,29 +93,27 @@
       <file leaf-file-name="TicTacToe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ttt/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="91" column="9" lean-forward="false" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+            <state relative-caret-position="714">
+              <caret line="51" column="73" lean-forward="false" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3491#3492#0" expanded="true" />
-                <element signature="e#3522#3523#0" expanded="true" />
-                <element signature="e#3557#3558#0" expanded="true" />
-                <element signature="e#3588#3589#0" expanded="true" />
-                <element signature="e#3623#3624#0" expanded="true" />
-                <element signature="e#3654#3655#0" expanded="true" />
+                <element signature="e#2650#2651#0" expanded="true" />
+                <element signature="e#2681#2682#0" expanded="true" />
+                <element signature="e#2716#2717#0" expanded="true" />
+                <element signature="e#2747#2748#0" expanded="true" />
+                <element signature="e#2782#2783#0" expanded="true" />
+                <element signature="e#2813#2814#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameState.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ttt/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="731">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,12 +131,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="I_Grid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ttt/I_Grid.java">
+      <file leaf-file-name="I_CommonGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ttt/I_CommonGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="119">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Play.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/battleship/Play.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A_TicTacToe.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ttt/A_TicTacToe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gameboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/battleship/Gameboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,26 +221,26 @@
         <option value="$PROJECT_DIR$/src/main/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/TTT/TicTacToe.java" />
-        <option value="$PROJECT_DIR$/src/ttt/I_Grid.java" />
         <option value="$PROJECT_DIR$/src/ttt/Person.java" />
         <option value="$PROJECT_DIR$/src/ttt/Gameboard_TTT.java" />
         <option value="$PROJECT_DIR$/src/ttt/Players.java" />
         <option value="$PROJECT_DIR$/src/ttt/Button.java" />
-        <option value="$PROJECT_DIR$/src/ttt/A_TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/ttt/owins.fxml" />
         <option value="$PROJECT_DIR$/src/ttt/xwins.fxml" />
         <option value="$PROJECT_DIR$/src/ttt/mainmenu.fxml" />
         <option value="$PROJECT_DIR$/src/battleship/Carrier.java" />
         <option value="$PROJECT_DIR$/src/battleship/Battleship.java" />
-        <option value="$PROJECT_DIR$/src/battleship/Gameboard.java" />
-        <option value="$PROJECT_DIR$/src/battleship/I_Grid.java" />
         <option value="$PROJECT_DIR$/src/battleship/Ship.java" />
-        <option value="$PROJECT_DIR$/src/battleship/Play.java" />
         <option value="$PROJECT_DIR$/src/battleship/Submarine.java" />
-        <option value="$PROJECT_DIR$/src/ttt/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/ttt/Controller.java" />
         <option value="$PROJECT_DIR$/src/ttt/Main.java" />
         <option value="$PROJECT_DIR$/src/ttt/GameState.java" />
+        <option value="$PROJECT_DIR$/src/ttt/TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/battleship/I_Grid.java" />
+        <option value="$PROJECT_DIR$/src/ttt/I_Grid.java" />
+        <option value="$PROJECT_DIR$/src/ttt/A_TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/battleship/Gameboard.java" />
+        <option value="$PROJECT_DIR$/src/battleship/Play.java" />
       </list>
     </option>
   </component>
@@ -618,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513779475727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merged Kevins files with my files by hand&#10;Modified Main.java to go to main menu first.&#10;Added game reset functionality to TicTacToe + return to main menu button.&#10;Removed unused files in Battleship&#10;TODO: Make sure we actually follow the rubric (?????)&#10;TODO: Merge both I_Grid classes into one">
+      <created>1517363131123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517363131123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -626,6 +663,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -693,7 +731,8 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Forgot to make it a JavaFX project" />
     <MESSAGE value="Added FXML layouts for x winning page, o winning page, main menu.&#10;&#10;Fixed an issue with modifying the scene through primaryStage... Ended up just making a static stage and passing it through to all the other classes.&#10;&#10;Set up controller class with all methods needed;&#10;&#10;TODO: Integrate Kevins battleship game in time for the wednesday night deadline." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added FXML layouts for x winning page, o winning page, main menu.&#10;&#10;Fixed an issue with modifying the scene through primaryStage... Ended up just making a static stage and passing it through to all the other classes.&#10;&#10;Set up controller class with all methods needed;&#10;&#10;TODO: Integrate Kevins battleship game in time for the wednesday night deadline." />
+    <MESSAGE value="Merged Kevins files with my files by hand&#10;Modified Main.java to go to main menu first.&#10;Added game reset functionality to TicTacToe + return to main menu button.&#10;Removed unused files in Battleship&#10;TODO: Make sure we actually follow the rubric (?????)&#10;TODO: Merge both I_Grid classes into one" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merged Kevins files with my files by hand&#10;Modified Main.java to go to main menu first.&#10;Added game reset functionality to TicTacToe + return to main menu button.&#10;Removed unused files in Battleship&#10;TODO: Make sure we actually follow the rubric (?????)&#10;TODO: Merge both I_Grid classes into one" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -759,7 +798,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/I_Grid.java">
+    <entry file="file://$PROJECT_DIR$/src/ttt/I_CommonGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -793,7 +832,7 @@
         <state relative-caret-position="400">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -819,12 +858,12 @@
         <state relative-caret-position="700">
           <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/I_Grid.java">
+    <entry file="file://$PROJECT_DIR$/src/ttt/I_CommonGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -874,12 +913,12 @@
         <state relative-caret-position="225">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/I_Grid.java">
+    <entry file="file://$PROJECT_DIR$/src/ttt/I_CommonGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
@@ -1022,16 +1061,6 @@
     <entry file="file://$PROJECT_DIR$/src/ttt/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/ttt/Gameboard_TTT.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/javafx-src.zip!/javafx/scene/control/Button.java" />
-    <entry file="file://$PROJECT_DIR$/src/ttt/A_TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ttt/sample.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1054,6 +1083,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,22 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleship/Play.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleship/I_Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleship/Submarine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1149,10 +1166,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/I_Grid.java">
+    <entry file="file://$PROJECT_DIR$/src/battleship/I_Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/I_CommonGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1160,7 +1185,36 @@
     <entry file="file://$PROJECT_DIR$/src/battleship/Gameboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/A_TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/Play.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1176,20 +1230,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/ttt/GameState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="731">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="73" lean-forward="false" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2650#2651#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2782#2783#0" expanded="true" />
+            <element signature="e#2813#2814#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ttt/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="335">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
@@ -1198,32 +1266,6 @@
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="91" column="9" lean-forward="false" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="e#3522#3523#0" expanded="true" />
-            <element signature="e#3557#3558#0" expanded="true" />
-            <element signature="e#3588#3589#0" expanded="true" />
-            <element signature="e#3623#3624#0" expanded="true" />
-            <element signature="e#3654#3655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

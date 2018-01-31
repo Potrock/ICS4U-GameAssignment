@@ -1,8 +1,10 @@
 package battleship;
 
+import ttt.I_CommonGame;
+
 import java.util.Scanner;
 
-public class Play extends Gameboard implements I_Grid {
+public class Play extends Gameboard implements I_CommonGame {
     public int shootX;
     public int shootY;
 
