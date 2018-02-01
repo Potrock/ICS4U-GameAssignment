@@ -3,7 +3,7 @@ package ttt;
 /**
  * Created by pwbla on 2018-01-29.
  */
-public class Players {
+class Players {
     private static int turn;
 
     Players() {

@@ -12,7 +12,7 @@ import java.util.List;
 /*
 Abstract class implementing I_CommonGame
  */
-public abstract class A_TicTacToe implements I_CommonGame {
+abstract class A_TicTacToe implements I_CommonGame {
     /*
     Creates main scene and gridpane references
     Creates ArrayList of my button class
@@ -20,6 +20,7 @@ public abstract class A_TicTacToe implements I_CommonGame {
     Scene tttScene;
     GridPane tttRoot = new GridPane();
     List<ttt.Button> buttons = new ArrayList<ttt.Button>();
+
     A_TicTacToe() throws Exception {
         //Add 9 buttons to button array
         for (int i = 0; i < 9; i++) {

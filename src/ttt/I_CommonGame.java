@@ -15,5 +15,4 @@ public interface I_CommonGame {
     void initialize();
 
 
-
 }

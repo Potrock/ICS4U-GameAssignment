@@ -9,7 +9,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/Main.class" afterPath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/TicTacToe.class" afterPath="$PROJECT_DIR$/out/production/ICS4U-GameAssignment/ttt/TicTacToe.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/battleship/Gameboard.java" afterPath="$PROJECT_DIR$/src/battleship/Gameboard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/battleship/Play.java" afterPath="$PROJECT_DIR$/src/battleship/Play.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/battleship/Ship.java" afterPath="$PROJECT_DIR$/src/battleship/Ship.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/battleship/Submarine.java" afterPath="$PROJECT_DIR$/src/battleship/Submarine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/A_TicTacToe.java" afterPath="$PROJECT_DIR$/src/ttt/A_TicTacToe.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/I_CommonGame.java" afterPath="$PROJECT_DIR$/src/ttt/I_CommonGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/Main.java" afterPath="$PROJECT_DIR$/src/ttt/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ttt/Players.java" afterPath="$PROJECT_DIR$/src/ttt/Players.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,26 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ttt/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-590">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <marker date="1517443023426" expanded="true" signature="1993:2041" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TicTacToe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ttt/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3705#3706#0" expanded="true" />
@@ -100,8 +92,8 @@
       <file leaf-file-name="GameState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ttt/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+            <state relative-caret-position="96">
+              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -110,13 +102,11 @@
       <file leaf-file-name="Players.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ttt/Players.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="51">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
-                <element signature="e#169#170#0" expanded="false" />
-                <element signature="e#196#197#0" expanded="false" />
-                <element signature="e#223#224#0" expanded="false" />
-                <element signature="e#247#248#0" expanded="false" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,18 +117,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Play.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Play.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/battleship/Play.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="59" column="52" lean-forward="false" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+            <state relative-caret-position="184">
+              <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -148,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/ttt/A_TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,15 +152,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Ship.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/battleship/Ship.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#631#632#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Submarine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/battleship/Submarine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ttt/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1517443023411" expanded="true" signature="445:507" ph="{...}" />
-                <marker date="1517443023411" expanded="true" signature="575:636" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -227,20 +235,21 @@
         <option value="$PROJECT_DIR$/src/ttt/mainmenu.fxml" />
         <option value="$PROJECT_DIR$/src/battleship/Carrier.java" />
         <option value="$PROJECT_DIR$/src/battleship/Battleship.java" />
-        <option value="$PROJECT_DIR$/src/battleship/Ship.java" />
-        <option value="$PROJECT_DIR$/src/battleship/Submarine.java" />
         <option value="$PROJECT_DIR$/src/battleship/I_Grid.java" />
         <option value="$PROJECT_DIR$/src/ttt/I_Grid.java" />
-        <option value="$PROJECT_DIR$/src/ttt/Players.java" />
-        <option value="$PROJECT_DIR$/src/battleship/Gameboard.java" />
         <option value="$PROJECT_DIR$/src/ttt/tiedmenu.fxml" />
         <option value="$PROJECT_DIR$/src/ttt/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/ttt/Button.java" />
         <option value="$PROJECT_DIR$/src/ttt/GameState.java" />
-        <option value="$PROJECT_DIR$/src/ttt/A_TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/ttt/Controller.java" />
-        <option value="$PROJECT_DIR$/src/ttt/Main.java" />
         <option value="$PROJECT_DIR$/src/battleship/Play.java" />
+        <option value="$PROJECT_DIR$/src/ttt/Players.java" />
+        <option value="$PROJECT_DIR$/src/ttt/Main.java" />
+        <option value="$PROJECT_DIR$/src/ttt/I_CommonGame.java" />
+        <option value="$PROJECT_DIR$/src/ttt/A_TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/battleship/Gameboard.java" />
+        <option value="$PROJECT_DIR$/src/battleship/Ship.java" />
+        <option value="$PROJECT_DIR$/src/battleship/Submarine.java" />
       </list>
     </option>
   </component>
@@ -1472,7 +1481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517430247651</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added try-catch around the handleInput method to prevent Mr Patel inevitably trying to cause NumberFormatException errors with the TextField Input. Returns an appropriate message.">
+      <created>1517445689805</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517445689805</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1480,6 +1496,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1555,7 +1572,8 @@
     <MESSAGE value="Fixed an issue where you could input more than 2 numbers and kill the program" />
     <MESSAGE value="Fixed a logic problem in TicTacToe Win detection" />
     <MESSAGE value="Commented Tic Tac Toe and Main&#10;TODO: Get Kevin to comment his work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented Tic Tac Toe and Main&#10;TODO: Get Kevin to comment his work" />
+    <MESSAGE value="Added try-catch around the handleInput method to prevent Mr Patel inevitably trying to cause NumberFormatException errors with the TextField Input. Returns an appropriate message." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added try-catch around the handleInput method to prevent Mr Patel inevitably trying to cause NumberFormatException errors with the TextField Input. Returns an appropriate message." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1585,10 +1603,8 @@
         <state relative-caret-position="375">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <element signature="e#169#170#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#223#224#0" expanded="false" />
-            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1601,7 +1617,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
-            <marker date="1517443023426" expanded="true" signature="1993:2041" ph="{...}" />
+            <marker date="1517445860376" expanded="true" signature="1994:2042" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1610,9 +1626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1622,8 +1636,6 @@
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517443023411" expanded="true" signature="445:507" ph="{...}" />
-            <marker date="1517443023411" expanded="true" signature="575:636" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1655,7 +1667,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
-            <marker date="1517443023426" expanded="true" signature="1993:2041" ph="{...}" />
+            <marker date="1517445860376" expanded="true" signature="1994:2042" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1672,9 +1684,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1684,8 +1694,6 @@
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517443023411" expanded="true" signature="445:507" ph="{...}" />
-            <marker date="1517443023411" expanded="true" signature="575:636" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1709,7 +1717,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
-            <marker date="1517443023426" expanded="true" signature="1993:2041" ph="{...}" />
+            <marker date="1517445860376" expanded="true" signature="1994:2042" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1726,9 +1734,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1738,8 +1744,6 @@
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517443023411" expanded="true" signature="445:507" ph="{...}" />
-            <marker date="1517443023411" expanded="true" signature="575:636" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1763,7 +1767,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
-            <marker date="1517443023426" expanded="true" signature="1993:2041" ph="{...}" />
+            <marker date="1517445860376" expanded="true" signature="1994:2042" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1774,8 +1778,6 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517443023411" expanded="true" signature="445:507" ph="{...}" />
-            <marker date="1517443023411" expanded="true" signature="575:636" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1799,7 +1801,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
-            <marker date="1517443023426" expanded="true" signature="1993:2041" ph="{...}" />
+            <marker date="1517445860376" expanded="true" signature="1994:2042" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1810,8 +1812,6 @@
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517443023411" expanded="true" signature="445:507" ph="{...}" />
-            <marker date="1517443023411" expanded="true" signature="575:636" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1835,7 +1835,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
-            <marker date="1517443023426" expanded="true" signature="1993:2041" ph="{...}" />
+            <marker date="1517445860376" expanded="true" signature="1994:2042" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1857,8 +1857,6 @@
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517443023411" expanded="true" signature="445:507" ph="{...}" />
-            <marker date="1517443023411" expanded="true" signature="575:636" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1879,17 +1877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/xwins.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ttt/mainmenu.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1903,46 +1890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/battleship/Carrier.java" />
     <entry file="file://$PROJECT_DIR$/src/battleship/Battleship.java" />
-    <entry file="file://$PROJECT_DIR$/src/battleship/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleship/Submarine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/battleship/I_Grid.java" />
-    <entry file="file://$PROJECT_DIR$/src/ttt/Players.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#169#170#0" expanded="false" />
-            <element signature="e#196#197#0" expanded="false" />
-            <element signature="e#223#224#0" expanded="false" />
-            <element signature="e#247#248#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/I_CommonGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ttt/sample.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1965,57 +1913,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/battleship/Gameboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3705#3706#0" expanded="true" />
-            <element signature="e#3736#3737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ttt/Button.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="84" lean-forward="false" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/A_TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1517443023411" expanded="true" signature="445:507" ph="{...}" />
-            <marker date="1517443023411" expanded="true" signature="575:636" ph="{...}" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2028,15 +1932,109 @@
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
-            <marker date="1517443023426" expanded="true" signature="1993:2041" ph="{...}" />
+            <marker date="1517445860376" expanded="true" signature="1994:2042" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3705#3706#0" expanded="true" />
+            <element signature="e#3736#3737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/Players.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/I_CommonGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/battleship/Play.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="59" column="52" lean-forward="false" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+        <state relative-caret-position="184">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/A_TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/xwins.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/Gameboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battleship/Submarine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>

@@ -3,7 +3,7 @@ package battleship;
 public class Submarine extends Ship {
     // went endGame gets incremented to 1 the game is finished
     public int endGame = 0;
-    
+
     public Submarine() {
         // randomizes the position of the ship
         int userX = (int) (Math.round(5 * Math.random()));

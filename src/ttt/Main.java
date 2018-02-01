@@ -68,7 +68,7 @@ public class Main extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         /*
         Set up primaryStage instance to be the static reference
          */

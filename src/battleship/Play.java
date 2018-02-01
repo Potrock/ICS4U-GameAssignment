@@ -8,11 +8,8 @@ import javafx.scene.text.Text;
 import ttt.I_CommonGame;
 
 public class Play extends Gameboard implements I_CommonGame {
-    Scene inputScene;
-    AnchorPane parent;
-    TextField inputField;
-    private int shootX;
-    private int shootY;
+    private Scene inputScene;
+    private TextField inputField;
 
     public Play() {
         Text greeting = new Text("Please input your shot coordinates in the format \"X Y\"");
@@ -27,7 +24,7 @@ public class Play extends Gameboard implements I_CommonGame {
         inputField.setPrefHeight(100);
         inputField.setTranslateX(50);
         inputField.setTranslateY(150);
-        parent = new AnchorPane();
+        AnchorPane parent = new AnchorPane();
         parent.getChildren().add(inputField);
         parent.getChildren().add(greeting);
         inputScene = new Scene(parent, 600, 300);
@@ -46,8 +43,8 @@ public class Play extends Gameboard implements I_CommonGame {
                 System.out.println("Please try again with both an x and a y coordinate.");
             } else {
                 // gets integers from the strings and subtracts 1 to get the position of the array
-                shootX = Integer.parseInt(choice[0]) - 1;
-                shootY = Integer.parseInt(choice[1]) - 1;
+                int shootX = Integer.parseInt(choice[0]) - 1;
+                int shootY = Integer.parseInt(choice[1]) - 1;
                 // checks if the shot is within the parameters of the gameboard
                 if (shootX >= 0 && shootX <= 4 && shootY >= 0 && shootY <= 4) {
                     shoot(shootX, shootY);
