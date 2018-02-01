@@ -38,20 +38,26 @@ public class Play extends Gameboard implements I_CommonGame {
     }
 
     private void handleInput(String input) {
-        String[] choice = input.split(" ");
-        if (choice.length > 2) {
-            System.out.println("Input too long, keep it to 2 numbers please.");
-        } else {
-            // gets integers from the strings and subtracts 1 to get the position of the array
-            shootX = Integer.parseInt(choice[0]) - 1;
-            shootY = Integer.parseInt(choice[1]) - 1;
-            // checks if the shot is within the parameters of the gameboard
-            if (shootX >= 0 && shootX <= 4 && shootY >= 0 && shootY <= 4) {
-                shoot(shootX, shootY);
+        try {
+            String[] choice = input.split(" ");
+            if (choice.length > 2) {
+                System.out.println("Input too long, keep it to 2 numbers please.");
+            } else if (choice.length < 2) {
+                System.out.println("Please try again with both an x and a y coordinate.");
             } else {
-                System.out.println("Sorry! That coordinate doesn't exist! Try inputting one between 1 and 5");
+                // gets integers from the strings and subtracts 1 to get the position of the array
+                shootX = Integer.parseInt(choice[0]) - 1;
+                shootY = Integer.parseInt(choice[1]) - 1;
+                // checks if the shot is within the parameters of the gameboard
+                if (shootX >= 0 && shootX <= 4 && shootY >= 0 && shootY <= 4) {
+                    shoot(shootX, shootY);
+                } else {
+                    System.out.println("Sorry! That coordinate doesn't exist! Try inputting one between 1 and 5");
+                }
+                inputField.setText("");
             }
-            inputField.setText("");
+        } catch (NumberFormatException e) {
+            System.out.println("Only numbers please.");
         }
     }
 
